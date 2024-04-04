@@ -12,10 +12,11 @@
     <td><?php echo $row['Tranche2']; ?></td>
     <td><?php echo $row['Statut_paiement']; ?></td>
     <td>
-        <a class="btn btn-success" type="add" href="enregistrerPaie.php"><i class="bi bi-plus"></i></a> 
-        <a class="btn btn-warning" type="edit" href="editPaie.php?ID_paiement=<?php echo $row['ID_paiement']; ?>"><i class="bi bi-pencil-square"></i></a> 
-        <a class="btn btn-info" type="edit" href="PrintPaie.php"><i class="bi bi-printer"></i></a> 
-        <a class="btn btn-danger" type="delete" href="deletePaie.php?ID_paiement=<?php echo $row['ID_paiement']; ?>"><i class="bi bi-trash"></i></a> 
+        <a class="btn btn-success" type="add" href="enregistrerPaie.php"><i class="bi bi-plus"></i></a>
+        <a class="btn btn-warning" type="edit" href="editPaie.php?ID_paiement=<?php echo $row['ID_paiement']; ?>"><i
+                class="bi bi-pencil-square"></i></a>
+        <a class="btn btn-danger" type="delete" href="deletePaie.php?ID_paiement=<?php echo $row['ID_paiement']; ?>"><i
+                class="bi bi-trash"></i></a>
     </td>
 </tr>
 <?php  }
