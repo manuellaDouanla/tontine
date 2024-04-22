@@ -26,6 +26,8 @@ if (isset($_POST['save'])) {
 
     // Return a response
    // alert ('insertion good');
+   // Retourner une réponse
+    $response = array('message' => 'Insertion réussie');
     echo json_encode($response);
 
 }

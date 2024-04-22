@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
     // Inclure la bibliothèque FPDF
     require('assets/fpdf186/fpdf.php');
 
